@@ -12,24 +12,6 @@
 
 <script language="javascript">
 
-function ajax()
-{
-    var request=new XMLHttpRequest();
-    var year=document.getElementById('year').value;
-    request.open("GET","getdata.php?year="+year,true);
-    request.send(null);
-    request.onreadystatechange=function()
-    {
-        if(request.readyState==4)
-        {
-            var name=document.getElementById('name');
-        name.innerHTML=request.responseText;
-        }
-        
-    };
-    
-}
-
 </script>
 
 <body align=center>
