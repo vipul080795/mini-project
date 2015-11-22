@@ -42,7 +42,7 @@ if(isset($_POST['find']))
     $gender= $_POST['gender'];
     $topname=$_POST['topname'];
     $table= $gender.'_'.$year;
-    //echo $table;
+    
     $qry="Select * from $table limit $topname ";
     $result=@mysql_query($qry) or die(mysql_error());
     echo "<h2 style='text-align: center; color: 228B22;'> Top $topname $gender Name of Year $year</h2>";
