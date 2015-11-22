@@ -8,9 +8,9 @@
 <form method="Post">
 <fieldset >
 <legend>Welcome Guest User</legend>
-<input type="radio" name="choise" required="" value="byname" /> Find Popularity & Rank Of Your Name
+<input type="radio" name="choise" required="" value="byname" /> Popularity & Rank Of Your Name
 <br />
-<input type="radio" name="choise" required="" value="byyear" /> Find Popular Name By Year
+<input type="radio" name="choise" required="" value="byyear" /> Popular Name By Year
 <br />
 <input type="submit" value="GO" name="Go" />
 </fieldset>
