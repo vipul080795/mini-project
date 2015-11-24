@@ -23,11 +23,8 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
 <!--
-spark, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
 
-Download: http://zypopwebtemplates.com/
 
-License: Creative Commons Attribution
 //-->
 </head>
 <body>
