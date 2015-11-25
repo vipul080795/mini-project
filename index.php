@@ -10,9 +10,7 @@
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
