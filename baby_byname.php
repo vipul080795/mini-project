@@ -54,13 +54,6 @@
                 <li class="selected">
 
                     <a href="byname.php">Popularity</a>
-                            
-                    <ul>
-                                <li><a href="#">Name</a></li>
-                                <li><a href="#">Year</a></li>
-                                <li><a href="#">Both</a></li>
-                            </ul>
-
                         </li>
             
                 <li><a href="about.html">About</a></li>
