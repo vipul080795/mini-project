@@ -240,7 +240,7 @@ while($row=mysql_fetch_array($res))
     $_SESSION['name']=$name;
 
 
-    echo "<img src='linechart.php' style='alignment-adjust: central; margin-left: 25%'/>";
+    echo "<img src='barchart_spacing.php' style='alignment-adjust: central; margin-left: 25%'/>";
                 
             }
             
