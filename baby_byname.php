@@ -20,7 +20,22 @@
 <script type="text/javascript" src="js/custom.js"></script>
 
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-
+<script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css"
+        href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+ 
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $("#name").autocomplete({
+                        source:'search.php',
+                        minLength:1,
+                        limit : 5
+                    });
+                });
+        </script>
 </head>
 <body>
 <div id="container">
